@@ -8,6 +8,8 @@ node_modules/
 **/node_modules/
 **/package-lock.json
 **/yarn.lock
+.npm-cache/
+**/.npm-cache/
 
 # Build outputs
 dist/
