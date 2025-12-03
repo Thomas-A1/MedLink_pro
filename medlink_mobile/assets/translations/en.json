@@ -1,0 +1,331 @@
+{
+  "common": {
+    "app_name": "MedLink",
+    "skip": "Skip",
+    "continue": "Continue",
+    "get_started": "Begin my care journey",
+    "sign_in": "Sign In",
+    "create_account": "Create Account",
+    "guest_cta": "Explore MedLink AI without signing in",
+    "email_or_phone": "Email or Phone Number",
+    "password": "Password",
+    "forgot_password": "Forgot Password?",
+    "or": "OR",
+    "language_name_en": "English",
+    "language_name_tw": "Twi",
+    "retry": "Retry"
+  },
+  "splash": {
+    "tagline": "Your trusted healthcare companion",
+    "subtitle": "Connect with doctors, manage prescriptions, and take control of your health"
+  },
+  "onboarding": {
+    "hero_title": "Telemedicine for Ghana.\nBeautifully reimagined.",
+    "hero_subtitle": "Safe, modern care with Ghanaian doctors across MedLink’s digital clinics.",
+    "page_connect_title": "Connect with Doctors",
+    "page_connect_body": "Access trusted Ghanaian healthcare professionals for secure voice or video consultations anywhere you are.",
+    "page_rx_title": "Manage Prescriptions",
+    "page_rx_body": "Receive digital prescriptions instantly and discover pharmacies with your medications in stock.",
+    "page_lab_title": "Lab Results & Reports",
+    "page_lab_body": "Upload lab reports, share them securely with specialists, and track progress from a single timeline.",
+    "page_personal_title": "Your Health, Your Way",
+    "page_personal_body": "Switch between English and Twi, enjoy AI-guided triage, and stay on top of every consultation."
+  },
+  "login": {
+    "welcome": "Welcome back!",
+    "subtitle": "Sign in to continue your care journey in English or Twi.",
+    "identifier": "Email or Phone",
+    "identifier_hint": "Enter your email or phone number",
+    "identifier_required": "Please enter your email or phone number",
+    "password": "Password",
+    "password_hint": "Enter your password",
+    "password_required": "Please enter your password",
+    "forgot_password": "Forgot Password?",
+    "button": "Sign In",
+    "register": "Create Account",
+    "or": "OR",
+    "guest": "Continue as Guest",
+    "error_missing_credentials": "Please enter your email or phone number",
+    "error_password": "Password must be at least 6 characters"
+  },
+  "ai": {
+    "intake_title": "MedLink AI Intake",
+    "intake_subtitle": "Say “MedLink” to wake the microphone, then describe your symptoms in English or Twi.",
+    "status_unavailable": "Microphone unavailable",
+    "status_unavailable_hint": "Please allow microphone access in your device settings.",
+    "status_listening": "Listening for “MedLink”…",
+    "status_listening_hint": "Say “MedLink” clearly to activate the AI intake experience.",
+    "status_recording": "We are recording your story",
+    "status_recording_hint": "Describe your symptoms in Twi or English. Pause when done.",
+    "status_ready": "Tap the glowing microphone to begin",
+    "status_ready_hint": "MedLink’s clinical AI will transcribe and triage your symptoms for the best doctor match.",
+    "transcript_title": "Live transcript",
+    "transcript_placeholder": "Your transcription in Twi/English will appear here in real-time.",
+    "translated_summary_label": "English summary",
+    "analyze": "Diagnose & connect",
+    "recommendations_title": "Recommended doctors",
+    "connect_now": "Connect now",
+    "language_label": "Spoken language",
+    "language_en": "English",
+    "language_tw": "Twi",
+    "hero_subtitle": "Personalized guidance with real doctors on standby.",
+    "chip_listening": "Listening…",
+    "chip_tap": "Tap to begin",
+    "connecting": {
+      "title": "Matching you with the best specialist",
+      "subtitle": "Analyzing your symptoms, checking availability, and preparing a warm handoff."
+    }
+  },
+  "body_selector": {
+    "title": "Select Body Parts",
+    "subtitle": "Rotate the body to see all sides, then select all areas where you feel pain",
+    "selected": "Selected",
+    "select_parts": "Select affected areas",
+    "select_hint": "Rotate the 3D model and select all affected body parts",
+    "select_part_hint": "Please select at least one body part to continue",
+    "continue": "Continue",
+    "instructions": "Tap directly on the body parts you want to select"
+  },
+  "settings": {
+    "title": "Settings",
+    "localization": "Localization",
+    "language": "Language",
+    "ai_heading": "MedLink AI & Support",
+    "ai_shortcut_title": "Open MedLink AI",
+    "ai_shortcut_subtitle": "Launch the AI concierge to log complaints or speak with a doctor."
+  },
+  "language": {
+    "choose": "Choose your preferred language",
+    "switch_hint": "You can switch between English and Twi anytime.",
+    "option_en_title": "English",
+    "option_en_desc": "Continue the experience in English.",
+    "option_tw_title": "Twi",
+    "option_tw_desc": "Enjoy the full experience in Twi."
+  },
+  "register": {
+    "title": "Create account",
+    "role_heading": "I am a...",
+    "role_subtitle": "Select your role to get started",
+    "role_patient_title": "Patient",
+    "role_patient_desc": "Get medical consultations and manage your health",
+    "role_doctor_title": "Doctor",
+    "role_doctor_desc": "Provide consultations and manage your practice",
+    "role_validation": "Please select a role before continuing",
+    "step_basic_title": "Basic information",
+    "step_basic_subtitle": "Tell us about yourself",
+    "first_name_label": "First name",
+    "first_name_hint": "Enter your first name",
+    "first_name_error": "Please enter your first name",
+    "last_name_label": "Last name",
+    "last_name_hint": "Enter your last name",
+    "last_name_error": "Please enter your last name",
+    "phone_label": "Phone number",
+    "phone_hint": "+233 XX XXX XXXX",
+    "phone_error": "Please enter your phone number",
+    "phone_error_invalid": "Please enter a valid phone number",
+    "email_label": "Email (optional)",
+    "email_hint": "your.email@example.com",
+    "email_error": "Please enter a valid email",
+    "step_password_title": "Create password",
+    "step_password_subtitle": "Choose a strong password to secure your account",
+    "password_label": "Password",
+    "password_hint": "Enter your password",
+    "password_error": "Please enter a password",
+    "password_error_length": "Password must be at least 8 characters",
+    "confirm_password_label": "Confirm password",
+    "confirm_password_hint": "Re-enter your password",
+    "confirm_password_error": "Passwords do not match",
+    "password_requirement_title": "Password must contain:",
+    "password_requirement_length": "At least 8 characters",
+    "password_requirement_mix": "A mix of letters and numbers",
+    "additional_info_title": "Additional information",
+    "additional_info_subtitle": "Help us provide better care",
+    "dob_label": "Date of birth",
+    "dob_hint": "Tap to pick your birthday",
+    "gender_label": "Gender",
+    "gender_error": "Please select your gender",
+    "gender": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "prefer": "Prefer not to say"
+    },
+    "region_label": "Region",
+    "region_hint": "e.g., Greater Accra",
+    "region_error": "Please enter your region",
+    "district_label": "District",
+    "district_hint": "e.g., Accra Metropolitan",
+    "district_error": "Please enter your district",
+    "button_next": "Next",
+    "button_previous": "Back",
+    "button_submit": "Create account"
+  },
+  "home": {
+    "greeting": "Hi, {0}",
+    "welcome": "Welcome to MedLink",
+    "welcome_subtitle": "How can we help you today?",
+    "my_consultations": "My Consultations",
+    "view_history": "View history",
+    "emergency": "Emergency",
+    "emergency_subtitle": "Get immediate help",
+    "how_can_we_help": "How can we help you today?",
+    "ai_intake_title": "MedLink AI Intake",
+    "ai_intake_subtitle": "Describe symptoms and get matched with specialists",
+    "search_doctors_title": "Search Doctors",
+    "search_doctors_subtitle": "Browse and book appointments directly",
+    "find_care_title": "Find Care Nearby",
+    "find_care_subtitle": "Map pharmacies, hospitals, and labs around you",
+    "map_care_title": "Discover Pharmacies & Hospitals",
+    "map_care_subtitle": "View MedLink facilities on the map with live availability",
+    "doctor_queue_title": "Patient Queue",
+    "doctor_queue_subtitle": "Review and call waiting patients",
+    "doctor_reports_title": "Reports & Analytics",
+    "doctor_reports_subtitle": "Insights across branches and services",
+    "doctor_reports_coming": "Reports dashboard coming soon!",
+    "doctor_manage_title": "Consultation Workspace",
+    "doctor_manage_subtitle": "Launch calls, document notes, and manage triage",
+    "health_tips": "Health Tips",
+    "health_tip_content": "Stay hydrated, get regular exercise, and maintain a balanced diet for optimal health.",
+    "role_badge": {
+      "patient": "Patient",
+      "doctor": "Doctor",
+      "hospital_admin": "Hospital Admin",
+      "pharmacy_admin": "Pharmacy Admin",
+      "super_admin": "Super Admin",
+      "guest": "Guest"
+    }
+  },
+  "map": {
+    "search": {
+      "drug": "Search medication, doctor, or service…"
+    },
+    "filter": {
+      "all": "All",
+      "pharmacy": "Pharmacies",
+      "hospital": "Hospitals"
+    },
+    "results": "{0} care locations nearby"
+  },
+  "location": {
+    "error": "We couldn't access your current location. Please enable GPS and try again."
+  },
+  "pharmacy": {
+    "contact": "Contact information",
+    "hours": "Opening hours",
+    "services": "Services & amenities",
+    "navigate": "Navigate with Maps",
+    "send_prescription": "Send prescription",
+    "prescription_sent": "Prescription shared with the pharmacy."
+  },
+  "hospital": {
+    "contact": "Contact information",
+    "hours": "Visiting hours",
+    "services": "Departments & services",
+    "navigate": "Navigate with Maps",
+    "emergency": "Call emergency line"
+  },
+  "queue": {
+    "title": "Virtual Queue",
+    "doctor_title": "Today's consultations",
+    "doctor_action": "Calling {0}…",
+    "ready": "You're up!",
+    "ready_message": "Your doctor is ready to see you now.",
+    "next": "Next in line",
+    "position": "Queue position",
+    "wait_time": "Estimated wait: {0} min",
+    "visualization": {
+      "title": "Queue progression"
+    },
+    "join_call": "Join call",
+    "leave": {
+      "label": "Leave queue",
+      "title": "Leave queue?",
+      "message": "Leaving the queue will cancel this consultation. Do you still want to leave?",
+      "cancel": "Stay in queue",
+      "confirm": "Leave"
+    }
+  },
+  "doctor": {
+    "search_hint": "Search by name or specialty...",
+    "filter": "Filter",
+    "sort": "Sort",
+    "no_results": "No doctors found",
+    "no_doctors_title": "No doctors for now",
+    "no_doctors_subtitle": "Doctors will appear here as they join MedLink.",
+    "load_error": "We couldn’t load doctors. Please check your connection and try again.",
+    "try_different_search": "Try adjusting your filters or search terms",
+    "specialty": "Specialty",
+    "availability": "Availability",
+    "all": "All",
+    "online_now": "Online Now",
+    "available_today": "Available Today",
+    "apply_filters": "Apply Filters",
+    "sort_recommended": "Recommended",
+    "sort_price_low": "Price: Low to High",
+    "sort_price_high": "Price: High to Low",
+    "sort_rating": "Highest Rated",
+    "sort_wait_time": "Shortest Wait Time",
+    "online": "Online",
+    "consultation_fee": "Consultation Fee",
+    "about": "About",
+    "about_content": "Experienced healthcare professional dedicated to providing quality medical care. Specialized in comprehensive patient care with a focus on preventive medicine and patient education.",
+    "languages": "Languages Spoken",
+    "reviews": "Reviews",
+    "view_all": "View All",
+    "sample_review": "Excellent doctor! Very professional and caring. Explained everything clearly and made me feel comfortable.",
+    "message": "Message",
+    "book_appointment": "Book Appointment"
+  },
+  "consultation": {
+    "booking": {
+      "title": "Book Consultation"
+    },
+    "type": {
+      "title": "Consultation Type",
+      "video": "Video Call",
+      "video.desc": "See your doctor face-to-face",
+      "voice": "Voice Call",
+      "voice.desc": "Audio consultation only"
+    },
+    "fee": {
+      "title": "Consultation Fee",
+      "consultation": "Consultation Fee",
+      "platform": "Service Fee",
+      "total": "Total"
+    },
+    "proceed": "Proceed to Payment",
+    "complaint": {
+      "title": "Your Complaint"
+    }
+  },
+  "payment": {
+    "title": "Complete payment",
+    "summary": {
+      "title": "Payment summary",
+      "consultation": "Consultation fee",
+      "platform": "MedLink service fee",
+      "total": "Total due"
+    },
+    "method": {
+      "title": "Payment method",
+      "mobile_money": "Mobile Money",
+      "mobile_money.desc": "Pay with MTN, Vodafone or AirtelTigo Money",
+      "card": "Debit or credit card",
+      "card.desc": "Secure card payment powered by Paystack"
+    },
+    "mobile_money": {
+      "phone": "Mobile Money number"
+    },
+    "pay": "Pay securely",
+    "error": "Payment failed. Please try again."
+  },
+  "profile": {
+    "title": "Profile",
+    "edit_profile": "Edit Profile",
+    "consultation_history": "Consultation History",
+    "payments": "Payments",
+    "help_support": "Help & Support",
+    "logout": "Logout"
+  }
+}
+

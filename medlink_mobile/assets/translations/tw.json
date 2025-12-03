@@ -1,0 +1,313 @@
+{
+  "common": {
+    "app_name": "MedLink",
+    "skip": "Twe",
+    "continue": "Toa so",
+    "get_started": "Hyɛ mʼsɛe kwan no mu",
+    "sign_in": "Kɔ mu",
+    "create_account": "Bɔ akawnt foforo",
+    "guest_cta": "Hwehwɛ MedLink AI a w’ankɔ mu",
+    "email_or_phone": "Email anaa fon nɔma",
+    "password": "Ehintasɛmfua",
+    "forgot_password": "Wo werɛ afi ehintasɛmfua no?",
+    "or": "ANAA",
+    "language_name_en": "Borɔfo",
+    "language_name_tw": "Twi",
+    "retry": "San sɔ hwɛ"
+  },
+  "splash": {
+    "tagline": "Wo yare ho ɔkasafoɔ a wotumi de wɔn di dwuma",
+    "subtitle": "Kɔ ne dɔkotani nkyɛn, hwɛ wo aduro ho nsɛm, na fa wo yare ho tumi wɔ wo nsam"
+  },
+  "onboarding": {
+    "hero_title": "Ayareyɛ ntetee ma Ghana.\nYenim sɛnea edi mu.",
+    "hero_subtitle": "Bisa dɔkotani a wowɔ Ghana ha wɔ MedLink dan nyinaa mu.",
+    "page_connect_title": "Kɔ dɔkotani nkyɛn",
+    "page_connect_body": "Fa fon no so nya dɔkotani a wohu no pa ara wɔ video anaa kasakoa bere biara.",
+    "page_rx_title": "Hwɛ wo aduro ho",
+    "page_rx_body": "Nya aduro krataa ntɛm ara na hu pharmacy a wɔwɔ aduro no de ma wo.",
+    "page_lab_title": "Lab nsɛmmisa ne akontaa",
+    "page_lab_body": "Tow lab krataa braha na kyekyɛ ma dɔkotani a ofii ho, na hwɛ wo nsakrae mu kɔ.",
+    "page_personal_title": "Wo nipasu, wo kwanten",
+    "page_personal_body": "Fa Twi anaa Borɔfo, nya AI mmoa, na tena so hwɛ wo nkitahodie nyinaa mu."
+  },
+  "login": {
+    "welcome": "Akwaaba!",
+    "subtitle": "Kɔ mu na toa wo ayaresa kwan no so wɔ Twi anaa Borɔfo mu.",
+    "identifier": "Email anaa Fon",
+    "identifier_hint": "Kyerɛ wo email anaa fon nɔma",
+    "identifier_required": "Yɛ pɛ sɛ wokyerɛ wo email anaa fon nɔma",
+    "password": "Password",
+    "password_hint": "Kyerɛ wo password",
+    "password_required": "Yɛ pɛ sɛ wokyerɛ wo password",
+    "forgot_password": "Wɔkae wo password?",
+    "button": "Hyɛ mu",
+    "register": "Bɔ Account",
+    "or": "ANA",
+    "guest": "Toa so sɛ obi a wɔnnyɛ obi",
+    "error_missing_credentials": "Hyɛ wo email anaa fon nɔma",
+    "error_password": "Ehintasɛmfua no kɔ nson akyi"
+  },
+  "ai": {
+    "intake_title": "MedLink AI abusua",
+    "intake_subtitle": "Ka “MedLink” na mic no nnyegye, na bɔ wo yare ho amanneɛ wɔ Twi anaa Borɔfo mu.",
+    "status_unavailable": "Mic no nni hɔ",
+    "status_unavailable_hint": "Ma fon no kwan ma app no tumi yɛ mic ho adwuma.",
+    "status_listening": "Resɛe “MedLink”…",
+    "status_listening_hint": "Ka “MedLink” mu yiye na MedLink AI ativete nkae no.",
+    "status_recording": "Yerekɔtia wo asɛm",
+    "status_recording_hint": "Ka wo yare ho asɛm wɔ Twi anaa Borɔfo mu. Gyae bere a wowie.",
+    "status_ready": "Fa wo nsateaa gu mic no so na hyɛ ase",
+    "status_ready_hint": "MedLink AI bɛkyere na abɔ dɔkotani pa a ɔde bɛboa wo.",
+    "transcript_title": "Nkasafuom a yɛrebɔ seisei ara",
+    "transcript_placeholder": "Nwoma a wokae wɔ Twi/Borɔfo mu bɛda ha kɔkɔɔkɔ.",
+    "translated_summary_label": "Borɔfo asekyerɛ",
+    "analyze": "Hwɛ na fa me kɔ dɔkotani pa ho",
+    "recommendations_title": "Dokotani a yɛpɛ sɛ wokɔ wɔn nkyɛn",
+    "connect_now": "Kɔ ne nkyɛn seisei",
+    "language_label": "Kasa a wokae mu",
+    "language_en": "Borɔfo",
+    "language_tw": "Twi",
+    "hero_subtitle": "AI no bɛma woanya dɔkotani pa a ɔwɔ hɔ seesei.",
+    "chip_listening": "Yɛretie wo…",
+    "chip_tap": "Fa wo nsateaa gu mic no so",
+    "connecting": {
+      "title": "Yɛrehyehyɛ dɔkotani pa ama wo",
+      "subtitle": "Yɛrebɔ wo nsɛm ho adwuma na yɛrehwehwɛ ɔbenfo a ɔde bɛboa wo."
+    }
+  },
+  "body_selector": {
+    "title": "Paw nipadua mmea",
+    "subtitle": "Dan nipadua no mu na hu nkyɛn nyinaa, na paw mmea a ɛyɛ wo ya nyinaa",
+    "instructions": "Dan, kɛse, na fa 3D model no mu. Fa wo nsateaa gu mmea a ɛwɔ ase no so na paw nipadua mmea pii.",
+    "selected": "Wopaw",
+    "select_parts": "Paw mmea a ɛyɛ wo ya",
+    "select_hint": "Dan 3D model no mu na paw nipadua mmea a ɛyɛ wo ya nyinaa",
+    "select_part_hint": "Yɛ pɛ sɛ wopaw nipadua fa biara pɛ na toa so",
+    "continue": "Toa so"
+  },
+  "settings": {
+    "title": "Nhyehyɛe",
+    "localization": "Kasa nhyehyɛe",
+    "language": "Kasa",
+    "ai_heading": "MedLink AI ne mmoa",
+    "ai_shortcut_title": "Bue MedLink AI",
+    "ai_shortcut_subtitle": "Kɔ MedLink AI mu na kɔkasa fa wo haw ne mpɔtam adɔkotani ho."
+  },
+  "language": {
+    "choose": "Paw kasa a wopɛ",
+    "switch_hint": "Wubetumi asesa wɔ Twi anaa Borɔfo bere biara.",
+    "option_en_title": "Borɔfo",
+    "option_en_desc": "Toa MedLink akwantuo no so wɔ Borɔfo mu.",
+    "option_tw_title": "Twi",
+    "option_tw_desc": "Fa MedLink mu biribiara wɔ Twi kasa mu."
+  },
+  "register": {
+    "title": "Bɔ akawnt",
+    "role_heading": "Me yɛ...",
+    "role_subtitle": "Paw wo dwumadie ansa na yɛato mu",
+    "role_patient_title": "Onyarefo",
+    "role_patient_desc": "Nya ayaresa ne nipasu nhyehyɛe",
+    "role_doctor_title": "Dɔkotani",
+    "role_doctor_desc": "Ma ayaresa na hwɛ wo adwumadwuma so",
+    "role_validation": "Paw dwumadie ansa na woto mu",
+    "step_basic_title": "Nkyerɛmu titiriw",
+    "step_basic_subtitle": "Ka wo ho asɛm kakra",
+    "first_name_label": "Din a edi kan",
+    "first_name_hint": "Hyɛ wo din a edi kan",
+    "first_name_error": "Hyɛ wo din a edi kan",
+    "last_name_label": "Din a etia",
+    "last_name_hint": "Hyɛ wo din a etia",
+    "last_name_error": "Hyɛ wo din a etia",
+    "phone_label": "Fon nɔma",
+    "phone_hint": "+233 XX XXX XXXX",
+    "phone_error": "Hyɛ wo fon nɔma",
+    "phone_error_invalid": "Fon nɔma no nteɛ",
+    "email_label": "Email (sɛ wopɛ)",
+    "email_hint": "wo.email@example.com",
+    "email_error": "Hyɛ email a ɛfata",
+    "step_password_title": "Bɔ ehintasɛmfua",
+    "step_password_subtitle": "Paw ehintasɛmfua den na kora wo akawnt",
+    "password_label": "Ehintasɛmfua",
+    "password_hint": "Hyɛ ehintasɛmfua",
+    "password_error": "Hyɛ ehintasɛmfua",
+    "password_error_length": "Ehintasɛmfua no kɔ nson akyi",
+    "confirm_password_label": "San kyerɛ ehintasɛmfua",
+    "confirm_password_hint": "San hyɛ bio",
+    "confirm_password_error": "Ehintasɛmfua no mmfa",
+    "password_requirement_title": "Ehintasɛmfua no bɛyɛ saa:",
+    "password_requirement_length": "Ɛsɛ sɛ ɛyɛ nson anaa kɔ soro",
+    "password_requirement_mix": "Ka nsɛmfua ne mfema bɔ mu",
+    "additional_info_title": "Nkyerɛmu foforo",
+    "additional_info_subtitle": "Boa ma yebenya ayaresa pa",
+    "dob_label": "Awoɔ da",
+    "dob_hint": "Pia ha na paw wo awoɔ da",
+    "gender_label": "Nipa bɔbea",
+    "gender_error": "Paw wo nipa bɔbea",
+    "gender": {
+      "male": "Barima",
+      "female": "Obaa",
+      "other": "Foforo",
+      "prefer": "Mepɛ sɛ minka"
+    },
+    "region_label": "Mantam",
+    "region_hint": "sɛ: Greater Accra",
+    "region_error": "Hyɛ wo mantam",
+    "district_label": "Asase so mpɔtam",
+    "district_hint": "sɛ: Accra Metropolitan",
+    "district_error": "Hyɛ wo mpɔtam",
+    "button_next": "Toa so",
+    "button_previous": "San kɔ",
+    "button_submit": "Bɔ akawnt"
+  },
+  "home": {
+    "greeting": "Akwaaba, {0}",
+    "welcome": "Akwaaba wɔ MedLink mu",
+    "welcome_subtitle": "Dɛn na yɛmfa boa wo nnɛ?",
+    "my_consultations": "Me nkitahodie",
+    "view_history": "Hwɛ abakɔsɛm",
+    "emergency": "Asɛm so ara",
+    "emergency_subtitle": "Yɛ srɛ mmoa ntɛm",
+    "how_can_we_help": "Dɛn na wopɛ sɛ yɛyɛ ama wo?",
+    "ai_intake_title": "MedLink AI abusua",
+    "ai_intake_subtitle": "Bɔ wo haw ho amanneɛ na nya dɔkotani kɔkɔɔkɔ",
+    "search_doctors_title": "Hwehwɛ dɔkotani",
+    "search_doctors_subtitle": "Hwehwɛ na bɔ nkɔmmɔ kɔkɔɔkɔ",
+    "find_care_title": "Hu ayaresabea a ɛbɛn wo",
+    "find_care_subtitle": "Hwɛ pharmacy, ayaresabea ne lab wɔ mapa so",
+    "map_care_title": "Hu pharmacy ne ayaresabea",
+    "map_care_subtitle": "Hwɛ MedLink dan ne som mpɔtam so",
+    "doctor_queue_title": "Akan nyarefo kuro",
+    "doctor_queue_subtitle": "Hwɛ na frɛ nnipa a wɔretwɛn",
+    "doctor_reports_title": "Nsɛm nhwehwɛmu",
+    "doctor_reports_subtitle": "Hwɛ adwuma ne akɔbɔ (reba ntɛm)",
+    "doctor_reports_coming": "Nsɛmmisa yi reba ntɛm!",
+    "doctor_manage_title": "Dokotani adwumayɛbea",
+    "doctor_manage_subtitle": "Bue nkɔmmɔbɔ, kyerɛ nsɛm, bɔ nhyehyɛe",
+    "health_tips": "Ayaresa afotu",
+    "health_tip_content": "Nom nsuo pii, sɛe wo ho, na didi pa ma nipasu mu asetra.",
+    "role_badge": {
+      "patient": "Onyarefo",
+      "doctor": "Dokotani",
+      "hospital_admin": "Ayaresabea so panin",
+      "pharmacy_admin": "Pharmacy panin",
+      "super_admin": "Supaa panin",
+      "guest": "Ansa na ɔkɔ mu"
+    }
+  },
+  "map": {
+    "search": {
+      "drug": "Hwehwɛ aduro, dɔkotani anaa som…"
+    },
+    "filter": {
+      "all": "Nyinaa",
+      "pharmacy": "Pharmacy",
+      "hospital": "Ayaresabea"
+    },
+    "results": "{0} ayaresabea bɛn wo"
+  },
+  "location": {
+    "error": "Yentumi nhu wo beae. Ma GPS so na san sɔ hwɛ."
+  },
+  "pharmacy": {
+    "contact": "Nkrataa ne ɛkɔm",
+    "hours": "Nna a wɔbue",
+    "services": "Som ne mfasoɔ",
+    "navigate": "Kɔ so wɔ Mapa so",
+    "send_prescription": "Mane prescription",
+    "prescription_sent": "Yɛde prescription no akɔ pharmacy no."
+  },
+  "doctor": {
+    "search_hint": "Hwehwɛ din anaa adwuma mu...",
+    "filter": "Fa sie",
+    "sort": "Hyɛ nhyehyɛe",
+    "no_results": "Yenhuu dɔkotani a ɛtɔ wo no",
+    "no_doctors_title": "Dɔkotani biara nni hɔ seesei",
+    "no_doctors_subtitle": "Dɔkotani bɛda ha bere a wobɛtɔ mu wɔ MedLink so.",
+    "try_different_search": "Sesa wo nsɛmmisa anaa fa nhyehyɛe foforo",
+    "specialty": "Dwumadie titiriw",
+    "availability": "Bere a wɔwɔ hɔ",
+    "all": "Nyinaa",
+    "online_now": "Wɔ online seesei",
+    "available_today": "Wɔbɛtumi ne wo adi dwuma nnɛ",
+    "apply_filters": "Fa sie yi so",
+    "sort_recommended": "Amedyɛ a ɛfata",
+    "sort_price_low": "Boɔ: Foforo kɔte",
+    "sort_price_high": "Boɔ: Foforo kɔsoro",
+    "sort_rating": "Nsɛm kasa pa",
+    "sort_wait_time": "Bere tiaa a wobɛtwɛn",
+    "load_error": "Yentumi ankyerɛ dɔkotani no. San sɔ hwɛ bio."
+  },
+  "consultation": {
+    "booking": {
+      "title": "Bɔ nkitahodie"
+    },
+    "type": {
+      "title": "Nkitahodie mu",
+      "video": "Video nkɔmmɔbɔ",
+      "video.desc": "Hu wo dɔkotani anim",
+      "voice": "Kasakoa nkɔmmɔbɔ",
+      "voice.desc": "Kasakoa nkitahodie pɛ"
+    },
+    "fee": {
+      "title": "Nkitahodie sika",
+      "consultation": "Dɔkotani sika",
+      "platform": "Som sika",
+      "total": "Nyinaa"
+    },
+    "proceed": "Kɔ tua ka",
+    "complaint": {
+      "title": "Wo haw"
+    }
+  },
+  "payment": {
+    "title": "Tua sika no",
+    "summary": {
+      "title": "Tuo nsɛm mu",
+      "consultation": "Dɔkotani sika",
+      "platform": "MedLink som sika",
+      "total": "Sika a ɛtɔ so nyinaa"
+    },
+    "method": {
+      "title": "Fa no so tua",
+      "mobile_money": "Mobile Money",
+      "mobile_money.desc": "Tua ka wo MTN, Vodafone anaa AirtelTigo Money so",
+      "card": "Kaad tua ka",
+      "card.desc": "Kaad tua ka a Paystack bɔ ho ban"
+    },
+    "mobile_money": {
+      "phone": "Mobile Money nɔma"
+    },
+    "pay": "Tua sika no mu",
+    "error": "Entumi antua ka no. San sɔ hwɛ."
+  },
+  "queue": {
+    "title": "Atwene mu",
+    "doctor_title": "Dɔkotani nnɔbae nnɛ",
+    "doctor_action": "Yɛrefrɛ {0}…",
+    "ready": "Wo ara na ɛdi so!",
+    "ready_message": "Dɔkotani no yɛ set wɔ wo ho no.",
+    "next": "Nea odi w'akyi",
+    "position": "Atwene mu gyinabea",
+    "wait_time": "Bere a wotwɛn: {0} mints",
+    "visualization": {
+      "title": "Atwene mu nhyehyɛe"
+    },
+    "join_call": "Kɔ nkɔmmɔ no mu",
+    "leave": {
+      "label": "Fi atwene mu",
+      "title": "Wopɛ sɛ wufi atwene mu?",
+      "message": "Sɛ wufi atwene mu a, wɔbɛtwa saa nkitahodie no so. Wopɛ sɛ wufi mu anaa?",
+      "cancel": "Tenaso",
+      "confirm": "Fi mu"
+    }
+  },
+  "hospital": {
+    "contact": "Nkrataa ne nkitahodie",
+    "hours": "Bere a wɔbue",
+    "services": "Som ahorow",
+    "navigate": "Kɔ so wɔ Mapa so",
+    "emergency": "Frɛ asɛm so nɔma"
+  }
+}
+

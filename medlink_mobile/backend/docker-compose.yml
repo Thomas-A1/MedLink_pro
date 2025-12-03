@@ -1,0 +1,47 @@
+services:
+  db:
+    image: postgis/postgis:15-3.4
+    container_name: medlink_mobile_db
+    environment:
+      POSTGRES_DB: medlink_mobile
+      POSTGRES_USER: medlink
+      POSTGRES_PASSWORD: medlink
+    ports:
+      - '5445:5432'
+    volumes:
+      - mobile_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U medlink -d medlink_mobile']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: medlink_mobile_api
+    environment:
+      NODE_ENV: development
+      PORT: 4100
+      DATABASE_URL: postgres://medlink:medlink@db:5432/medlink_mobile
+      DESKTOP_DATABASE_URL: postgres://hc:hcpassword@host.docker.internal:5434/healthconnect_desktop
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USERNAME: medlink
+      DB_PASSWORD: medlink
+      DB_DATABASE: medlink_mobile
+      JWT_ACCESS_SECRET: ${JWT_ACCESS_SECRET:-local-access-secret-change-in-production}
+      JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:-local-refresh-secret-change-in-production}
+      JWT_ACCESS_EXPIRES_IN: 15m
+      JWT_REFRESH_EXPIRES_IN: 7d
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - '4100:4100'
+    command: node dist/main.js
+
+volumes:
+  mobile_db_data:
+
