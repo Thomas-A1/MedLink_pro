@@ -10,6 +10,23 @@ node_modules/
 **/yarn.lock
 .npm-cache/
 **/.npm-cache/
+**/dist/
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub/
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/android/.gradle/
+**/android/local.properties
+**/android/.idea/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
 
 # Build outputs
 dist/
